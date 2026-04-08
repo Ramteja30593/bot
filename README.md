@@ -14,6 +14,27 @@ The chatbot uses **AI (OpenAI/Gemini)** for natural language understanding and i
 
 ---
 
+## 📱 Mobile Application
+
+The project also includes an **Android mobile application** built using WebView that delivers a seamless app-like experience.
+
+### 🚀 Mobile Features
+
+* 📲 Full chatbot access inside mobile app
+* 🎤 Voice input enabled (microphone integration)
+* 🔐 Persistent login sessions
+* ⚡ Smooth navigation with optimized WebView
+* 🌐 Same functionality as web version
+
+### 🧠 Technical Highlights
+
+* Android WebView integration
+* WebChromeClient for microphone permissions
+* Runtime permission handling (RECORD_AUDIO)
+* Cookie & session persistence for Supabase Auth
+
+---
+
 ## 🎯 Key Features
 
 ### 👤 Customer Features
@@ -79,6 +100,13 @@ The chatbot uses **AI (OpenAI/Gemini)** for natural language understanding and i
 * Speech-to-Text API
 * Translation API
 
+### 📱 Mobile App
+
+* Android (Kotlin)
+* WebView
+* WebChromeClient
+* Android Permissions API
+
 ### 🔗 Integrations
 
 * Payment API (simulation)
@@ -102,6 +130,7 @@ The chatbot uses **AI (OpenAI/Gemini)** for natural language understanding and i
 * AI Engine processes user queries and detects intent
 * Supabase Edge Functions handle backend logic
 * Supabase DB stores users, products, and orders
+* Android App acts as a mobile wrapper with extended capabilities
 * External APIs handle voice, translation, and notifications
 
 ---
@@ -175,7 +204,7 @@ npm run dev
 * Real payment gateway integration
 * Advanced recommendation engine
 * Personalized user behavior tracking
-* Mobile app version
+* Native mobile app (beyond WebView)
 * Real-time notifications
 
 ---
@@ -189,7 +218,7 @@ npm run dev
 
 ## ⭐ Notes
 
-This project is designed as a **production-ready AI-powered retail assistant**, focusing on real-world usability, scalability, and intelligent automation.
+This project is designed as a **production-ready AI-powered retail assistant**, focusing on real-world usability, scalability, and intelligent automation across both web and mobile platforms.
 
 ---
 
